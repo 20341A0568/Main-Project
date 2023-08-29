@@ -1,0 +1,46 @@
+trainname,arrival,destination,platform,startingtime,reachingtime,id
+guwahati bangalore express,visakhapatnam,perambur,2,15:10,3:15,12510
+coromandel express,visakhapatnam,chennai ,3,4:45,16:50,12841
+kolkata shalimar chennai central superfast express,visakhapatnam,chennai,1,1:50,14:10,22825
+kolkata shalimar trivandrum central superfast express,visakhapatnam,perambur,4,14:20,3:00,22642
+chennai mail,visakhapatnam,chennai,1,14:10,3:15,12839
+MGR chennai central superfast express,visakhapatnam,chennai,3,7:20,20:30,22807
+dhanbad alappuzha express,visakhapatnam,chennai,2,8:35,23:15,13351
+new tinsukia junction tambaram express,visakhapatnam,chennai,1,5:45,20:40,15930
+humsafar express,visakhapatnam,renigunta,1,19:10,6:25,22833
+hatia bangalore express,visakhapatnam,tirupati,2,8:55,20:58,12835
+howrah junction bengalore express,visakhapatnam,tirupati,3,12:40,0:45,12863
+tirumala express,visakhapatnam,renigunta,4,14:00,3:48,17488
+bilaspur tirupati express,visakhapatnam,tirupati,1,3:25,22:40,17481
+vande bharat express,visakhapatnam,secunderabad,3,5:45,14:15,20833
+garib rath,visakhapatnam,secunderabad,2,20:40,8:10,12739
+visakhapatnam nanded superfast express,visakhapatnam,secunderabad,3,20:00,7:35,20811
+falaknuma express,visakhapatnam,secunderabad,4,22:35,10:10,12703
+bhubaneswar pune superfast express,visakhapatnam,secunderabad,1,4:10,15:59,22882
+visakhapatnam mahabubnagar superfast express,visakhapatnam,kacheguda,2,18:40,6:45,12861
+godavari express,visakhapatnam,hyderabad deccan,1,17:20,6:15,12727
+konark express,visakhapatnam,lingampally,2,22:20,11:39,11020
+janmabhoomi express,visakhapatnam,lingampally,1,6:20,19:40,12805
+visakhapatnam secunderabad special,visakhapatnam,secunderabad,5,19:00,9:05,18579
+visakhapatnam LTT express,visakhapatnam,lingampally,2,23:20,13:34,18519
+east coast express,visakhapatnam,hyderabad deccan,1,3:55,18:25,18045
+visakha express,visakhapatnam,secunderabad,2,16:30,7:30,17015
+coromandel express,visakhapatnam,bhubaneswar,1,20:10,2:15,12842
+agartala humsafar,visakhapatnam,bhubaneswar,3,4:35,11:05,12503
+falaknuma express,visakhapatnam,bhubaneswar,3,3:40,10:15,12704
+patna express,visakhapatnam,bhubaneswar,1,19:20,2:00,22643
+visakhapatnam shalimar superfast express,visakhapatnam,bhubaneswar,2,15:25,22:05,22854
+tiruchirappalli howrah express ,visakhapatnam,bhubaneswar,3,9:10,16:00,12664
+chennai howrah mail,visakhapatnam,bhubaneswar,2,8:10,15:00,12840
+villupuram kharagpur express,visakhapatnam,bhubaneswar,1,5:45,12:45,22604
+vasco da gama kolkata shalimar express,visakhapatnam,bhubaneswar,2,8:45,15:50,18048
+prashanti express,visakhapatnam,bhubaneswar,3,11:30,18:50,18464
+konark express,visakhapatnam,bhubaneswar,2,16:00,23:20,11019
+intercity express,visakhapatnam,bhubaneswar,1,16:20,23:45,22820
+bengalore howrah express,visakhapatnam,bhubaneswar,3,4:55,12:20,12864
+east coast express,visakhapatnam,bhubaneswar,2,21:30,5:05,18046
+visakha express,visakhapatnam,bhubaneswar,3,7:30,15:25,17016
+visakhapatnam LTT express,visakhapatnam,lokmanya tilak,1,23:20,4:15,18519
+konark express,visakhapatnam,shivaji mahal,2,22:20,4:00,11020
+konark express,visakhapatnam,pune,2,22:20,23:40,11020
+vande bharat express,visakhapatnam,rajahmundry,1,5:45,7:55,20833

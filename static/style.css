@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+body {
+    margin: 0;
+    display: block;
+    font-family: Arial, sans-serif;
+    background-image: url('./p1.jpeg'); /* Replace with your image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    min-height: 100vh; 
+    backdrop-filter:blur(1px);
+    
+  }
+#grid{
+  display: grid;
+}
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 30px; 
+    padding: 20px;
+    background-color: transparent; /* Adding a semi-transparent white background */
+    border: none;
+    /* justify-content: space-evenly;
+    flex-direction: row; */
+  }
+
+  .grid-item {
+    /* padding: 10px;
+    border: 1px solid #ccc; */
+    padding: 10px;
+    border: 1px solid #1e5f7f; /* Use a lighter border color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:none;
+  /* background-color:#000000 ; */
+  /* width: fit-content; */
+  }
+
+  .welcome {
+    font-size: 90px;
+    color:#ffffff;
+    font-weight: 600;
+    /* font-family: 'PT Sans Caption', sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
+    ;
+    /* font-family: 'PT Sans Caption', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif; */
+    
+    
+
+    /* text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; */
+    /* text-shadow: 
+      3px 3px 0 #000, 
+      -3px -3px 0 #000, 
+      3px -3px 0 #000, 
+      -3px 3px 0 #000;  */
+      margin-right: 100px;
+      margin-left:auto;
+      /* width: 40%; */
+  
+  }
+
+  
+  .input-field {
+    width: 90%;
+    padding: 9px;
+    margin-top: 5px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+
+  }
+  form{
+            /* position:absolute; */
+            left:40%;
+            top:30%;
+            text-align:center;
+            font-size:30px;
+            /* font-weight: 100; */
+            font-family:sans-serif;
+            color:coral;
+            text-transform:capitalize;
+            font-weight:600;
+
+        }
+
+  .submit-btn {
+
+            background-color:coral;
+            color:#ffffff;
+            padding:0.7rem;
+            margin-top: 10px;
+            font-size:1rem;
+            border:none;
+            border-radius:10px;
+            cursor:pointer;
+  }
+  .main{
+    /* backdrop-filter: blur(8px); */
+    
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 50%;
+    padding:70px 30px;
+    border-radius: 20px;
+    
+
+
+  }
+  span{
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 200px;
+  }

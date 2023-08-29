@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Bot</title>
+    <script>
+        function disappear(){
+            document.getElementById("form").style.display="none";
+            document.getElementById("loading").style.display="flex";
+        }
+    </script>
+    <style>
+        .wave {
+            position: relative;
+            -webkit-box-reflect: below -12px linear-gradient(transparent, rgba(0, 0, 0, .2));
+        }
+
+        .wave span {
+            position: relative;
+            display: inline-block;
+            font-family: sans-serif;
+            color: rgb(3, 75, 134);
+            font-size: 1.5em;
+            /* text-transform: capitalize; */
+            animation: animate 2s ease-in-out infinite;
+            animation-delay: calc(.1s*var(--i));
+        }
+
+        @keyframes animate {
+            0% {
+                transform: translateY(0px);
+            }
+
+            20% {
+                transform: translateY(-20px);
+            }
+
+            40%,
+            100% {
+                transform: translateY(0px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <form method="POST" action="/authentication" id="form" style="display: block;">
+            <label>Aadhar Number:</label>
+            <input type="number" name="aadhar">
+            <input type="submit" value="submit" onclick="disappear()">
+        </form>
+        <div id="loading" style="display: none;justify-content: center;position: absolute;top: 25%;left: 20%;flex-direction: column;text-align: center;">
+            <img src="../static/loader1.gif">
+            <!-- <div style="text-transform: capitalize;color: rgba(2, 76, 108, 0.986);font-weight: 600;font-size: 30px;font-family: sans-serif;">processing...</div> -->
+            <!-- <div class="wave">
+                <span style="--i:1">P</span>
+                <span style="--i:2">r</span>
+                <span style="--i:3">o</span>
+                <span style="--i:4">c</span>
+                <span style="--i:5">e</span>
+                <span style="--i:6">s</span>
+                <span style="--i:7">s</span>
+                <span style="--i:8">i</span>
+                <span style="--i:9">n</span>
+                <span style="--i:10">g</span>
+                <span style="--i:10">.</span>
+                <span style="--i:10">.</span>
+                <span style="--i:10">.</span>
+            </div> -->
+        </div>
+
+    </div>
+    
+</body>
+</html>
